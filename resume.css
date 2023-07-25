@@ -1,0 +1,320 @@
+body {
+  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+#secondColumn {
+  margin-top: -25px;
+  padding-top: -25px;
+}
+
+#secondColumn h2 {
+    text-align:left;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+  
+#search-table {
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    display: flex;
+}
+
+#search-input {
+  margin-right: 10px;
+  padding: 5px;
+  width: 200px;
+  max-width: 300px;
+}
+  
+.personal {
+    overflow:auto;
+    background-color: rgb(0, 255, 200);   
+}
+
+#per_dummy_div {
+  min-width: 25%;
+  width: 25%;
+  float: left;
+  
+}
+
+
+#appliedfor-container {
+  width: 50%;
+  text-align: center;
+  float: left;
+}
+
+#per_img_div
+{
+  width: 25%;
+  float: right;
+  
+}
+
+#resume_tbl {
+  padding-top: 10px;
+}
+
+#firstcolumn {
+  display: block;
+  background-color:rgba(233, 201, 218, 0.5);
+  padding: 0px 2px 2px 2px;
+  width: 175px;
+  
+}
+
+.resume {
+  margin:  10px auto;
+  max-width: 800px;
+  padding: 5px;
+  background-color:aliceblue;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.resume h2 {
+  margin-bottom: 10px;
+}
+  
+.resume ul li {
+  margin-bottom: 5px;
+}
+  
+.resume .basics ul {
+  display: block;
+  flex-wrap: wrap;
+}
+  
+.resume .basics ul li {
+  flex-basis: 50%;
+}
+  
+.fc_h3 {
+    background-color:grey;
+}
+
+#fc_div {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#firstcolumn .basics span {
+    float: right;
+    white-space:pre; 
+}
+
+#firstcolumn .skills span {
+  float: right;
+  white-space:pre; 
+  text-align: right;
+}
+
+#firstcolumn .interests span {
+  float: right;
+  white-space:pre; 
+  text-align: right;
+}
+
+.resume .work ul li span {
+  margin-right: 5px;  
+}
+  
+.resume .work ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.resume .work ul li span {
+  font-weight:normal;
+}
+
+#summary_heading {
+  font-weight:bold;
+  margin-left: 20px;
+  text-align: justify;
+  text-justify: auto;
+  margin-right: 10px;
+}
+
+#Summary {
+  font-weight: normal;
+}
+
+#alTop {
+  vertical-align: text-top;
+  margin-left: 20px;
+}
+
+.resume .projects p {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  text-align: justify;
+  text-justify: auto;
+
+}
+
+.resume #project-name{
+  font-weight: bold;
+}
+
+#project-description {
+  text-align: justify;
+  text-justify: auto;
+  margin-right: 10px;
+}
+
+#internship-summary {
+  text-align: justify;
+  text-justify: auto;
+  margin-right: 10px;
+}
+
+.resume .education ul {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  text-align: justify;
+  text-justify: auto;
+  font-weight: bold;
+}
+
+.resume .education span {
+  font-weight:normal;
+}
+
+.resume .internship ul {
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+.resume .internship span {
+  font-weight:normal;
+}
+
+ 
+.resume label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#prevBtn,
+#nextBtn {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+#prevBtn {
+    float: left;
+    margin-left: 10px;
+}
+  
+#prevBtn[disabled] {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+#nextBtn {
+  float: left;
+}
+  
+  #nextBtn[disabled] {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+  }
+
+  #results {
+    text-align: center;
+  }
+  
+  
+  #result-frame {
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
+  
+  #data-found {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #no-data-found {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  #no-data-found img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 10px;
+    border: 2px solid black ;
+  }
+  
+  .resume .achievements ul {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    text-align: justify;
+    text-justify: auto;
+  }
+  
+  .no-data {
+    border-radius: 25px;
+    border-style:solid;
+    border-width: thick;
+    width: 60%;
+    height: 50%;
+    font-size:large;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  #no-data {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .no-data img {
+    border:none;
+    border-style: none;
+    outline: none;
+  }
+
+  #no-data-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+  }
