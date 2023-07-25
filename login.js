@@ -7,12 +7,12 @@ const resultsContainer = document.getElementById("results");
 
 
 function codeOnload() {
-  if (localStorage.getItem("user")==null){
+  if (localStorage.getItem("user") == null) {
     resumeContainer.style.display = "none";
   } else {
-    resumeContainer.style.display = "block";  
+    resumeContainer.style.display = "block";
     loginContainer.style.display = "none";
-    resultsContainer.style.display = "none";    
+    resultsContainer.style.display = "none";
   };
 }
 window.onload = codeOnload;

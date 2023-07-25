@@ -15,7 +15,7 @@ h1 {
 }
 
 #secondColumn h2 {
-    text-align:left;
+  text-align: left;
 }
 
 ul {
@@ -23,12 +23,12 @@ ul {
   padding: 0;
   list-style: none;
 }
-  
+
 #search-table {
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
-    display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  display: flex;
 }
 
 #search-input {
@@ -37,19 +37,18 @@ ul {
   width: 200px;
   max-width: 300px;
 }
-  
+
 .personal {
-    overflow:auto;
-    background-color: rgb(0, 255, 200);   
+  overflow: auto;
+  background-color: rgb(0, 255, 200);
 }
 
 #per_dummy_div {
   min-width: 25%;
   width: 25%;
   float: left;
-  
-}
 
+}
 
 #appliedfor-container {
   width: 50%;
@@ -57,11 +56,9 @@ ul {
   float: left;
 }
 
-#per_img_div
-{
+#per_img_div {
   width: 25%;
   float: right;
-  
 }
 
 #resume_tbl {
@@ -70,40 +67,39 @@ ul {
 
 #firstcolumn {
   display: block;
-  background-color:rgba(233, 201, 218, 0.5);
+  background-color: rgba(233, 201, 218, 0.5);
   padding: 0px 2px 2px 2px;
   width: 175px;
-  
 }
 
 .resume {
-  margin:  10px auto;
+  margin: 10px auto;
   max-width: 800px;
   padding: 5px;
-  background-color:aliceblue;
+  background-color: aliceblue;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-  
+
 .resume h2 {
   margin-bottom: 10px;
 }
-  
+
 .resume ul li {
   margin-bottom: 5px;
 }
-  
+
 .resume .basics ul {
   display: block;
   flex-wrap: wrap;
 }
-  
+
 .resume .basics ul li {
   flex-basis: 50%;
 }
-  
+
 .fc_h3 {
-    background-color:grey;
+  background-color: grey;
 }
 
 #fc_div {
@@ -112,26 +108,26 @@ ul {
 }
 
 #firstcolumn .basics span {
-    float: right;
-    white-space:pre; 
+  float: right;
+  white-space: pre;
 }
 
 #firstcolumn .skills span {
   float: right;
-  white-space:pre; 
+  white-space: pre;
   text-align: right;
 }
 
 #firstcolumn .interests span {
   float: right;
-  white-space:pre; 
+  white-space: pre;
   text-align: right;
 }
 
 .resume .work ul li span {
-  margin-right: 5px;  
+  margin-right: 5px;
 }
-  
+
 .resume .work ul li {
   display: flex;
   align-items: center;
@@ -141,11 +137,11 @@ ul {
 }
 
 .resume .work ul li span {
-  font-weight:normal;
+  font-weight: normal;
 }
 
 #summary_heading {
-  font-weight:bold;
+  font-weight: bold;
   margin-left: 20px;
   text-align: justify;
   text-justify: auto;
@@ -170,7 +166,7 @@ ul {
 
 }
 
-.resume #project-name{
+.resume #project-name {
   font-weight: bold;
 }
 
@@ -196,7 +192,7 @@ ul {
 }
 
 .resume .education span {
-  font-weight:normal;
+  font-weight: normal;
 }
 
 .resume .internship ul {
@@ -205,10 +201,10 @@ ul {
 }
 
 .resume .internship span {
-  font-weight:normal;
+  font-weight: normal;
 }
 
- 
+
 .resume label {
   margin-bottom: 5px;
   font-weight: bold;
@@ -216,105 +212,104 @@ ul {
 
 #prevBtn,
 #nextBtn {
-    padding: 5px 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
-  
+
 #prevBtn {
-    float: left;
-    margin-left: 10px;
+  float: left;
+  margin-left: 10px;
 }
-  
+
 #prevBtn[disabled] {
-    background-color: #cccccc;
-    color: #666666;
-    cursor: not-allowed;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
 }
 
 #nextBtn {
   float: left;
 }
-  
-  #nextBtn[disabled] {
-    background-color: #cccccc;
-    color: #666666;
-    cursor: not-allowed;
-  }
 
-  #results {
-    text-align: center;
-  }
-  
-  
-  #result-frame {
-    position: relative;
-    width: 100%;
-    height: 300px;
-  }
-  
-  #data-found {
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-  
-  #no-data-found {
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  #no-data-found img {
-    width: 400px;
-    height: 400px;
-    margin-bottom: 10px;
-    border: 2px solid black ;
-  }
-  
-  .resume .achievements ul {
-    margin-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 10px;
-    text-align: justify;
-    text-justify: auto;
-  }
-  
-  .no-data {
-    border-radius: 25px;
-    border-style:solid;
-    border-width: thick;
-    width: 60%;
-    height: 50%;
-    font-size:large;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-  }
+#nextBtn[disabled] {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
 
-  #no-data {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
+#results {
+  text-align: center;
+}
 
-  .no-data img {
-    border:none;
-    border-style: none;
-    outline: none;
-  }
+#result-frame {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
 
-  #no-data-text {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-  }
+#data-found {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#no-data-found {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#no-data-found img {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+}
+
+.resume .achievements ul {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.no-data {
+  border-radius: 25px;
+  border-style: solid;
+  border-width: thick;
+  width: 60%;
+  height: 50%;
+  font-size: large;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#no-data {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.no-data img {
+  border: none;
+  border-style: none;
+  outline: none;
+}
+
+#no-data-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
